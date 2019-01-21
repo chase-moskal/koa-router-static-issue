@@ -14,3 +14,5 @@ router.use(serve("public"))
 
 app.use(router.middleware())
 app.listen(8080)
+
+// browse to "http://localhost:8080/testfile.txt"
